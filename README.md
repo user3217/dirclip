@@ -12,7 +12,7 @@ Official repository for the paper *Can a Confident Prior Replace a Cold Posterio
 
 ![](figures/accuracy.png)
 
-**Training stability.** Why does the *DirClip* prior stop working when $\alpha<0.8$? When the prior dominates the likelihood, posterior gradients may point toward the wrong class, leading to unstable training. For a more detailed discussion, please see the [full paper](TODO_ARXIV_LINK).
+**Training stability.** Why does the *DirClip* prior stop working when $\alpha<0.8$? When the prior dominates the likelihood, posterior gradients may point toward the wrong class, leading to unstable training. For a more detailed discussion, please see the full paper.
 
 ![](figures/gradients.gif)
 
